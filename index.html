@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter Clone</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+          <!-- LEFT SIDE START -->
+            <div class="col-md-3" id="leftSide">
+              <img src="https://1000logos.net/wp-content/uploads/2017/06/Twitter-Logo.png" height=26.5px>
+              <div class="list-group">
+               <a href="#" class="list-group-item list-group-item-action" id="listItem">
+                  Home
+                </a>
+                <a href="#" class="list-group-item list-group-item-action" id="listItem">Explore</a>
+                <a href="#" class="list-group-item list-group-item-action" id="listItem">Notifications</a>
+                <a href="#" class="list-group-item list-group-item-action" id="listItem">Messages</a>
+                <a href="#" class="list-group-item list-group-item-action" id="listItem">Bookmarks</a>
+                <a href="#" class="list-group-item list-group-item-action" id="listItem">Lists</a>
+                <a href="#" class="list-group-item list-group-item-action" id="listItem">Profile</a>
+                <a href="#" class="list-group-item list-group-item-action" id="listItem">More</a>
+                <button type="button"  class="btn btn-primary btn-lg">Tweet</button>
+               </div>
+              </div>
+          <!-- LEFT SIDE END -->
+
+          <!-- MIDDLE START -->
+            <div class="col-md-6" id="middle">
+              <div id="home"><h3>Home</h3></div>
+              
+              <!-- TWEET BOX START -->
+              <div id="tweetBox">
+                <form>
+                <div class="form-group">
+                  <input type="chatbox" class="form-control" id="tweet" placeholder="What's happening?">
+                </div>
+                  <button type="submit" id="mainTweetBtn" class="btn btn-primary">Tweet</button>
+              </form>
+              </div>
+              <!-- TWEET BOX END -->
+
+              <div id="break"></div>
+              <!-- POST 1 START -->
+              <div class="media">
+                <img src="https://static.nationalgeographic.co.uk/files/styles/image_3200/public/01-cat-names-nationalgeographic_1525054.jpg?w=1900&h=1267..." class="align-self-start mr-3" height="40px" width="40px">
+                <div class="media-body">
+                  <h5 class="mt-0">Bad Cat</h5>
+                  <p>I like to shit on beds</p>
+                </div>
+              </div>
+              <div id="icons">
+                <img src="Daco_215761.png" height="20px">
+                <img src="https://www.clipartkey.com/mpngs/m/47-475571_free-download-png-and-vector-clipart-free-twitter.png" height="20px">
+                <img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/twitter_retweet_icon_135079.png" height="30px">
+                <img src="https://pbs.twimg.com/media/DTSu-VAVoAARtGk.png" height="20px">
+              </div>
+              <!-- POST 1 END -->
+              <!-- POST 2 START -->
+              <div class="media">
+                <img src="20201001_110428.jpg" class="align-self-start mr-3" height="40px" width="40px">
+                <div class="media-body">
+                  <h5 class="mt-0">Good Cat</h5>
+                  <p> I love scritches </p>
+                  <img src="20201001_110424.jpg" width="450px" style="border-radius: 25px;">
+                </div>
+              </div>
+              <div id="icons">
+                <img src="Daco_215761.png" height="20px">
+                <img src="https://www.clipartkey.com/mpngs/m/47-475571_free-download-png-and-vector-clipart-free-twitter.png" height="20px">
+                <img src="https://cdn.icon-icons.com/icons2/2248/PNG/512/twitter_retweet_icon_135079.png" height="30px">
+                <img src="https://pbs.twimg.com/media/DTSu-VAVoAARtGk.png" height="20px">
+              </div>
+              <!-- POST 2 END -->
+            </div>
+          <!-- MIDDLE END -->
+
+          <!-- RIGHT START -->
+          <div id="right" class="col-md-3">
+           <!-- SEARCH BAR START -->
+            <nav class="navbar navbar-light bg-light">
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" id="searchBar" type="search" placeholder="Search Twitter" aria-label="Search">
+              </form>
+            </nav>
+            <!-- SEARCH BAR END -->
+
+            <!-- TRENDING START -->
+            <div id="trending" class="list-group">
+              <a href="#" id="trendingItem" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1" style="font-size: 25px; font-weight: 800;">Whats happening</h5>
+                </div>
+              </a>
+              <a href="#" id="trendingItem" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">#BREAKING: COVID Sucks</h5>
+                  <small>Right tf now</small>
+                </div>
+                <p class="mb-1">Duh</p>
+                <small></small>
+              </a>
+              <a href="#" id="trendingItem" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">List group item heading</h5>
+                  <small class="text-muted">3 days ago</small>
+                </div>
+                <p class="mb-1"></p>
+                <small class="text-muted"></small>
+              </a>
+              <a href="#" id="trendingItem" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">List group item heading</h5>
+                  <small class="text-muted">3 days ago</small>
+                </div>
+                <p class="mb-1"></p>
+                <small class="text-muted"></small>
+              </a>
+            </div>
+          </div>
+          <!-- RIGHT END -->
+        </div>
+    </div>
+    
+
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
